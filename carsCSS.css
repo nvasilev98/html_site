@@ -81,4 +81,16 @@
 .foot{
 	position: relative;
 	top: 100px;
+}
+
+
+@media (max-width: 880px) {
 	
+	.contain, .image,
+	.mainMenu, .subMenu,
+	.overlay, .text1{
+		display: grid;
+		width: 100%;
+		text-align: left;
+	}
+}
