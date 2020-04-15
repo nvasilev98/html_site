@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title>Weirdest Cars</title>
+			<link rel ="stylesheet" href="style.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script> 
+    $(function(){
+      $("#bar").load("bar.html"); 
+    });
+    </script> 
+	    <script> 
+    $(function(){
+      $("#footer").load("footer.html"); 
+    });
+    </script> 
+</head>
+
+<body>
+
+<div id="bar"></div>
+
+
+<h1 class="tit"> Bizzare Cars </h1>
+
+
+<div class="introduction">
+<p>For its latest exhibit, the High Museum of Art in Atlanta has<br> assembled 17 of the most beautiful,
+hideous, and strange<br> automotive concepts ever dreamed up by man, from a 1934<br> Bugatti prototype up to
+an early iteration of<br> the Porsche 918 Hybrid supercar.<br>
+<br>
+What happens when creators balance aesthetics, functionality,<br> and their personal vision of the future
+is one reason we love cars.<br> That is especially true when the results leave us wondering,<br>
+How could anyone think this was a good idea?</p>
+</div>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="car1.jfif" style="width:100%">
+  <div class="text">1942 Oeuf electrique</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="car2.jfif" style="width:100%">
+  <div class="text">1953 General Motors Firebird 1 XP-21</div>
+</div>
+
+<div class="mySlides fade">
+  <img src="car3.jfif" style="width:100%">
+  <div class="text">1959 Cadillac Cyclone</div>
+</div>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+</div>
+
+<div class="foot" id="footer"></div>
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+</html>

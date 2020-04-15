@@ -1,0 +1,36 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
+	
+}
+.tit{
+	display: inline-block;
+	position:relative;
+	top: 40px;
+	left: 550px;
+	font-size: 60px;
+	color: rgb(75,0,130);
+}
+.introduction{
+
+	display: initial;
+	position:relative;
+	top: 200px;
+	left: 20px;
+	font-size: 23px;
+
+}
+.slideshow-container{
+	position: absolute;
+	width: 50%;
+	height: 50%; 
+	top: 280px;
+	right: 34px;
+}
+.foot{
+	position: relative;
+	top: 400px;
+	
