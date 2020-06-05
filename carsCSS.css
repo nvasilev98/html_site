@@ -97,12 +97,11 @@
 			display: inherit;
 			position: absolute;
 			left: -800px;
-			top:-30px;
+			top:-20px;
 	}
 	.contain:hover .overlay {
 		display: inline-block;
 		height: 90%;
-		top: -10px;
 	}
 	.text1{
 	
