@@ -94,17 +94,10 @@
 		top:-40px;
 	}
 	.overlay{
-<<<<<<< HEAD
-			display: inherit;
-			position: absolute;
-			left: -800px;
-			top: -20px;
-=======
 		display: inherit;
 		position: absolute;
 		left: -800px;
 		top: -20px;
->>>>>>> 6f30b724592555f72e803bed5d0ac480876ff64c
 	}
 	.contain:hover .overlay {
 		display: inline-block;
