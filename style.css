@@ -33,4 +33,30 @@
 .foot{
 	position: relative;
 	top: 400px;
+}
+
+@media (max-width: 880px) {
+
+	.tit{
+		display: inline-block;
+		left: 80px;
+		position: relative;
+		font-size: 40px;
+		margin: 41px;
+		text-align: center;
+	}
 	
+	.introduction{
+		display: inline-block;
+		font-size: 15px;
+		top: 400px;
+	}
+	.slideshow-container{
+		display: inline-block;
+		left: 5px;
+		width: 100%;
+		text-align: center;
+	}
+
+
+}
