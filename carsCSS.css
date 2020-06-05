@@ -97,7 +97,6 @@
 			display: inherit;
 			position: absolute;
 			left: -800px;
-			top:-30px;
 	}
 	.contain:hover .overlay {
 		display: inline-block;
